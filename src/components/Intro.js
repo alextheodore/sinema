@@ -3,7 +3,7 @@ import CarouselImage from './CarouselImage';
 
 function Intro() {
   return (
-    <Carousel>
+    <Carousel className='main'>
       <Carousel.Item>
         <CarouselImage text="First slide" />
         <Carousel.Caption>
