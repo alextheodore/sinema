@@ -1,9 +1,9 @@
 import Image from "react-bootstrap/Image";
 
-function CarouselImage() {
+function CarouselImage(props) { // props -> parameter untuk menyimpan suatu data
   return (
     <div className="image d-flex justify-content-center" >
-      <Image src="LOGO_AT.jpg" fluid />
+      <Image src={props.value}/>
     </div>
   );
 }

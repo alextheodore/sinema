@@ -5,26 +5,18 @@ function Intro() {
   return (
     <Carousel className='main'>
       <Carousel.Item>
-        <CarouselImage text="First slide" />
+        <CarouselImage text="First slide" value='Carousel1.jpg'/>
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <CarouselImage text="Second slide" />
+        <CarouselImage text="Second slide" value='Carousel2.jpg'/>
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <CarouselImage text="Third slide" />
+        <CarouselImage text="Third slide" value='Carousel3.jpg'/>
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
