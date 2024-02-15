@@ -4,8 +4,10 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
 import data from './../data.json'
+import { useNavigate } from "react-router-dom";
 
 function Cards() {
+  const navigate = useNavigate()
   console.log(data.movies[0])
   return (
     <Container className="contain">
@@ -19,7 +21,7 @@ function Cards() {
               <p>{data.movies[0].director}</p>
               {/* <p>{data.movies[0].description}</p> */}
               <p>{data.movies[0].StudioId}</p>
-              <Button variant="primary" href="DetailPage.js">Detail</Button>
+              <Button variant="primary" onClick={()=>navigate('/DetailMovie')}>Detail</Button>
             </div>
           </div>
         </Col>

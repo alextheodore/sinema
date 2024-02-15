@@ -74,3 +74,17 @@
   height: 150px;
   object-fit: cover;
 } 
+
+.img-detail {
+  width: 65%;
+  height: 600px;
+  position: relative;
+  margin-left: 17%;
+  margin-top: 0.5%;
+}
+
+.title {
+  margin-top: 2%;
+  margin-left: 17%;
+}
+
