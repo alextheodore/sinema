@@ -19,7 +19,7 @@ function Cards() {
               <p>{data.movies[0].director}</p>
               {/* <p>{data.movies[0].description}</p> */}
               <p>{data.movies[0].StudioId}</p>
-              <Button variant="primary" href="#action7">Detail</Button>
+              <Button variant="primary" href="DetailPage.js">Detail</Button>
             </div>
           </div>
         </Col>
